@@ -160,3 +160,8 @@ li, b, span, a, p {
 .location {
   margin-top: 30px;
 }
+
+/* line 87, ../sass/screen.scss */
+.footer {
+  height: 200px;
+}
