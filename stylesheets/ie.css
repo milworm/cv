@@ -1,7 +1,5 @@
-@mixin ie-linear-gradient($start-color, $end-color) {
-   filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#{$start-color}', endColorstr='#{$end-color}');
-   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#{$start-color}', endColorstr='#{$end-color}')"; }
-
+/* line 5, ../sass/ie.scss */
 .header {
-	@include ie-linear-gradient(#373737, #212121);
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#373737', endColorstr='#212121');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#373737', endColorstr='#212121')";
 }
