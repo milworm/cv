@@ -4,3 +4,82 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+@import "compass/css3";
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+// common
+$color: white;
+
+.xx-large {
+	font-size:48px;
+	color: $color;
+}
+
+.left {
+	float: left;
+}
+
+.large {
+	font-size: 32px;
+}
+
+.contact {
+	margin-top: 40px;
+}
+
+.header {
+	padding: 40px 0px 180px 0px;
+	@include background(linear-gradient(top, #373737, #212121));
+
+	span, a {
+		color: $color;
+	}
+}
+
+body {
+	background: #F2F2F2;
+}
+
+.center {
+	margin: 0 auto;
+	width: 980px;
+}
+
+.container {
+	margin-top: 40px;
+}
+
+
+.date {
+	font-weight: bold;
+}
+
+.desc {
+	padding-left: 50px;
+}
+
+.clear-fx {
+	clear: both;
+}
+
+.contact {
+	width: 400px;
+	float: left;
+}
+
+.item-title {
+	font-size: 30px;
+	margin-top: 30px;
+	margin-bottom: 12px;
+}
+
+li, b, span, a, p {
+	line-height: 26px;
+}
+
+.location {
+	margin-top: 30px;
+}
