@@ -1,5 +1,1 @@
-/* line 5, ../sass/ie.scss */
-.header {
-  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#373737', endColorstr='#212121');
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#373737', endColorstr='#212121')";
-}
+.header{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#373737', endColorstr='#212121');-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#373737', endColorstr='#212121')"}
