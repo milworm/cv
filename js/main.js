@@ -125,7 +125,7 @@ $(function() {
 
 			me.timeout && clearTimeout(me.timeout);
 			me.timeout = setTimeout(function() { 
-				$("body").animate({
+				$("html, body").animate({
 					scrollTop: $(el).position().top
 				}, 600);
 			}, me.NAVIGATION_SCROLL_DELAY);
