@@ -15,20 +15,14 @@ $color: white;
 
 .xx-large {
 	font-size:48px;
-	color: $color;
+
+	&.name {
+		color: $color;
+	}
 }
 
-.left {
-	float: left;
-}
-
-.large {
-	font-size: 32px;
-}
-
-.contact {
-	margin-top: 40px;
-}
+.left { float: left; }
+.large { font-size: 32px; }
 
 .header {
 	padding-top: 30px;
@@ -42,6 +36,7 @@ $color: white;
 
 body {
 	background: #F2F2F2;
+	padding-bottom: 450px;
 }
 
 .center {
@@ -54,21 +49,14 @@ body {
 }
 
 
-.date {
-	font-weight: bold;
-}
-
-.desc {
-	padding-left: 50px;
-}
-
-.clear-fx {
-	clear: both;
-}
+.date { font-weight: bold; }
+.desc { padding-left: 50px; }
+.clear-fx { clear: both; }
 
 .contact {
 	width: 400px;
 	float: left;
+	margin-top: 40px;
 }
 
 .item-title {
@@ -85,6 +73,8 @@ li, b, span, a, p {
 	margin-top: 30px;
 }
 
-.footer {
-	height: 200px;
+.menu {
+	left: 20px;
+	top: 0px;
+	position: absolute;
 }
