@@ -138,6 +138,7 @@ $(function() {
 		 */
 		render: function() {
 			this.el.appendTo("body");
+			this.updateMenuPosition();
 		}
 
 	};
