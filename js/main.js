@@ -30,7 +30,7 @@ $(function() {
 		 *				 to start moving the menu
 		 * @constant
 		 */
-		WND_SCROLL_DELAY: 100,
+		WND_SCROLL_DELAY: 200,
 
 		/**
 		 * simple initialization
