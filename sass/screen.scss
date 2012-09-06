@@ -77,4 +77,8 @@ li, b, span, a, p {
 	left: 20px;
 	top: 0px;
 	position: absolute;
+
+	li {
+		cursor: pointer;
+	}
 }
