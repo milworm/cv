@@ -31,7 +31,8 @@ $color: white;
 }
 
 .header {
-	padding: 40px 0px 180px 0px;
+	padding-top: 30px;
+	height: 260px;
 	@include background(linear-gradient(top, #373737, #212121));
 
 	span, a {

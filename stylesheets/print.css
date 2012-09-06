@@ -1,0 +1,6 @@
+/* line 1, ../sass/print.scss */
+.header {
+  padding-top: 30px;
+  height: 260px;
+  background: url(/images/bg.png) repeat;
+}
