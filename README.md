@@ -1,4 +1,4 @@
 cv
 ==
 
-my cv
+My CV for Yandex.
